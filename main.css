@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+:root {
+
+  --color0: #6EFFD7;
+  --color1: #FFAD00;
+  --color2: #03D2FE;
+  --color3: #03F1A5;
+  --color4: #FE3E3D;
+  --color5: #F21826;
+  --background-color: #000;
+
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: var(--background-color);
+  text-align: center;
+}
+
+#back {
+  display: inline-block;
+
+  width: ;
+  text-align: right;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: ;
+  
+}
+
+#back > span {
+  background: #000;
+  color: #FFF;
+}
+
+.lightstring {
+
+  width: 100%;
+  height: 1px;
+  /*background: gray;*/
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin-top: ;
+  border-radius: ;
+
+
+}
+
+.lightstring div:after {
+  content: "";
+  top: -10px;
+  left: 10px;
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  border-bottom: 1px solid #0C3412;
+  border-radius: 50%;
+  background: ;
+}
+
+.lightbulb {
+
+  display: inline-block;
+  width: 10px;
+  height: 25px;
+  background: red;
+  box-shadow: ;
+  border: 0.4px solid;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  left: -20%;
+
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  right: -0.2px;
+  width: 10px;
+  height: 7px;
+  background: #0C3412;
+  border-radius: 1.5px;
+}
+
+.even {
+
+  animation: flash linear 1.0s infinite;
+}
+
+.odd {
+
+  animation: flash linear 1.0s infinite;  
+
+}
+
+@keyframes flash {
+
+	0% { opacity: 1; } 
+	50% { opacity: .4; } 
+	100% { opacity: 1; }
+}
+
+img {
+  width: 80%;
+  margin-top: 30px;
+}
+
+
+.color0 {
+  background: var(--color0);
+  box-shadow: 0 5px 30px 10px var(--color0);
+}
+
+.color1 {
+  background: var(--color1);
+  box-shadow: 0 5px 30px 10px var(--color1);
+}
+
+.color2 {
+  background: var(--color2);
+  box-shadow: 0 5px 30px 10px var(--color2);
+}
+
+.color3 {
+  background: var(--color3);
+  box-shadow: 0 5px 30px 10px var(--color3);
+}
+
+.color4 {
+  background: var(--color4);
+  box-shadow: 0 5px 30px 10px var(--color4);
+}
+
+.color5 {
+  background: var(--color5);
+  box-shadow: 0 5px 30px 10px var(--color5);
+}
+
+input {
+  width: 20px;
+  border-radius: 50%;
+}
